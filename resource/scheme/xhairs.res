@@ -2,6 +2,29 @@ Scheme
 {
 	Fonts
 	{
+		"aCrosshair30OTAA"
+		{
+			"1"
+			{
+				"name"      "KnucklesCrosses"
+				"tall"      "30"
+				"additive"  "0"
+				"antialias" "1"
+				"outline"   "1"
+			}
+		}
+		"aCrosshair6OTAA"
+		{
+			"1"
+			{
+				"name"      "KnucklesCrosses"
+				"tall"      "6"
+				"additive"  "0"
+				"antialias" "1"
+				"outline"   "1"
+			}
+		}
+
 		"size:10,outline:off"
 		{
 			"1"

@@ -1,5 +1,45 @@
 "Resource/HudLayout.res"
 {	
+	pazer_crosshair_transparent // large outer circle, mostly transparent
+	{
+		visible       1
+		enabled       1
+
+		controlName   CExLabel
+		fieldName     pazer_crosshair_transparent
+		zpos          0
+		xpos          "c-26"
+		ypos          "c-26"
+		wide          53
+		tall          53
+
+		font          aCrosshair30OTAA
+
+		labelText     i
+		textAlignment center
+		fgcolor       "255 255 255 16"
+	}
+
+	pazer_crosshair_opaque // small center circle, full opacity
+	{
+		visible       1
+		enabled       1
+
+		controlName   CExLabel
+		fieldName     pazer_crosshair_opaque
+		zpos          0
+		xpos          "c-25"
+		ypos          "c-25"
+		wide          51
+		tall          51
+
+		font          aCrosshair6OTAA
+
+		labelText     Y
+		textAlignment center
+		fgcolor       "255 255 255 255"
+	}
+
 	//--------------------------------------------------------------
 	// KNUCKLESCROSSES
 	//--------------------------------------------------------------
